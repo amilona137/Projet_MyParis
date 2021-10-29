@@ -3,22 +3,24 @@ package com.example.projet_myparis;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 
 //test
-/*public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
-    @Override
+    private final float TOUCH_SCALE_FACTOR = 180.0f / 320;
+    private float previousX;
+    private float previousY;
+   // @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Button boutton = (Button) findViewById(R.id.button);
-        //boutton.setOnClickListener(new View.OnClickListener() {
-            //@Override
-            //public void onClick(View v) {
-                //startActivity(new Intent (MainActivity.this,FirstPage.class)
-            }
-        });
+    }
+
+    public boolean onTouch(View v, MotionEvent event) {
+        
+        return true;
+    }
 }
-}*/
