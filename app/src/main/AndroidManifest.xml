@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projet_MyParis">
         <activity
+            android:name=".RestaurantsPage"
+            android:exported="true" />
+        <activity
             android:name=".FirstPage"
             android:exported="true" />
         <activity

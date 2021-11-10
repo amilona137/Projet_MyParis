@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/drawable/bouton1.xml" value="0.1828125" />
+        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/activity_first_page.xml" value="0.264" />
+        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/activity_main.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/activity_restaurants_page.xml" value="0.16" />
+        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/rv_list_item.xml" value="0.2" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.24487179487179486" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.38201751224672414" />
       </map>
