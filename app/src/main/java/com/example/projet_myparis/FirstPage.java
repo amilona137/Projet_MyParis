@@ -15,20 +15,20 @@ public class FirstPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_page);
 
-        /*findViewById(R.id.bmonuments).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.bmonuments).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FirstPage.this, MonumentsPage.class));
+                startActivity(new Intent(FirstPage.this, Monuments.class));
             }
-        });*/
-
+        });
+/*
         findViewById(R.id.brestaurants).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(FirstPage.this, RestaurantsPage.class));
             }
         });
-        /*findViewById(R.id.bdormir).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.bdormir).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(FirstPage.this, DormirPage.class));
