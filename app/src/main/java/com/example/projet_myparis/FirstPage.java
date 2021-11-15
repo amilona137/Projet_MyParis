@@ -20,7 +20,7 @@ public class FirstPage extends AppCompatActivity {
             public void onClick(View v) {
                 startActivity(new Intent(FirstPage.this, MonumentsPage.class));
             }
-        });
+        });*/
 
         findViewById(R.id.brestaurants).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,7 +28,7 @@ public class FirstPage extends AppCompatActivity {
                 startActivity(new Intent(FirstPage.this, RestaurantsPage.class));
             }
         });
-        findViewById(R.id.bdormir).setOnClickListener(new View.OnClickListener() {
+        /*findViewById(R.id.bdormir).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(FirstPage.this, DormirPage.class));
