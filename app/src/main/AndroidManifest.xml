@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projet_MyParis">
         <activity
+            android:name=".CustomAdapter"
+            android:exported="true" />
+        <activity
+            android:name=".Evenements"
+            android:exported="true" />
+        <activity
             android:name=".MChampsElysees"
             android:exported="true" />
         <activity

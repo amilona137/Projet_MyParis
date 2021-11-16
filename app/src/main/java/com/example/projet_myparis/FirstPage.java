@@ -21,19 +21,20 @@ public class FirstPage extends AppCompatActivity {
                 startActivity(new Intent(FirstPage.this, Monuments.class));
             }
         });
-/*
         findViewById(R.id.brestaurants).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(FirstPage.this, RestaurantsPage.class));
             }
         });
+
         findViewById(R.id.bdormir).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FirstPage.this, DormirPage.class));
+                startActivity(new Intent(FirstPage.this, Evenements.class));
             }
         });
+        /*
         findViewById(R.id.bshopping).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

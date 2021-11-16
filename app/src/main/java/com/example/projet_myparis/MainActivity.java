@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
             public boolean onTouch(View view, MotionEvent motionevent) {
                 Intent intent = new Intent(
                         MainActivity.this,
-                        FirstPage.class
+                        FirstPage
+                                .class
                 );
                 startActivity(intent);
                 return false;
