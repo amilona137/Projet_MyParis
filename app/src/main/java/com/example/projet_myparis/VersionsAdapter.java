@@ -4,10 +4,11 @@ import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
+import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
@@ -19,7 +20,7 @@ import java.util.List;
 public class VersionsAdapter extends RecyclerView.Adapter<VersionsAdapter.VersionVH> {
 
     List<Versions> versionsList;
-
+    Context context;
     public VersionsAdapter(List<Versions> versionsList) {
         this.versionsList = versionsList;
     }
@@ -35,7 +36,7 @@ public class VersionsAdapter extends RecyclerView.Adapter<VersionsAdapter.Versio
     public void onBindViewHolder(@NonNull VersionVH holder, int position) {
         Versions versions = versionsList.get(position);
         holder.titreTxtev.setText(versions.getTitreEv());
-        holder.imageTxtev.setText(versions.getImageEv());
+        holder.imageTxtev.setImageResource(versions.getImageEv());
         holder.descriptionTxtev.setText(versions.getDescriptionEv());
 
         boolean isExpandable = versionsList.get(position).isExpandable();
@@ -50,7 +51,8 @@ public class VersionsAdapter extends RecyclerView.Adapter<VersionsAdapter.Versio
 
     public class VersionVH extends RecyclerView.ViewHolder {
 
-        TextView imageTxtev, titreTxtev, descriptionTxtev;
+        TextView titreTxtev, descriptionTxtev;
+        ImageView imageTxtev ;
         LinearLayout linearLayout;
         RelativeLayout expandableLayout;
 

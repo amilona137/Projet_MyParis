@@ -24,14 +24,7 @@
             android:layout_marginBottom="2dp"
             android:columnCount="2">
 
-            <!-- <ImageView
-                android:id="@+id/imageev"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:layout_column="0"
-                /> -->
-
-            <TextView
+            <ImageView
                 android:id="@+id/imageev"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
@@ -46,7 +39,8 @@
                 android:layout_column="1"
                 android:text="TextView"
                 android:layout_gravity="center"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:textStyle="bold"/>
 
 
         </GridLayout>

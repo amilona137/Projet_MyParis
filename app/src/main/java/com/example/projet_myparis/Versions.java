@@ -1,10 +1,11 @@
 package com.example.projet_myparis;
 
 public class Versions {
-    private String imageev, titreev, descriptionev;
+    private String  titreev, descriptionev;
+    private Integer imageev;
     private boolean expandable;
 
-    public Versions(String imageev, String titreev, String descriptionev) {
+    public Versions(Integer imageev, String titreev, String descriptionev) {
 
         this.imageev = imageev;
         this.titreev = titreev;
@@ -22,7 +23,7 @@ public class Versions {
 
 
 
-    public String getImageEv() {
+    public Integer getImageEv() {
         return imageev;
     }
 
@@ -35,7 +36,7 @@ public class Versions {
     }
 
 
-    public void setImageEv(String imageEv) {
+    public void setImageEv(Integer imageEv) {
         this.imageev = imageEv;
     }
 
@@ -50,9 +51,9 @@ public class Versions {
     @Override
     public String toString() {
         return "Versions{" +
-                ", version='" + imageev + '\'' +
-                ", apiLevel='" + titreev + '\'' +
-                ", descriptionev='" + descriptionev + '\'' +
+                ", image='" + imageev + '\'' +
+                ", titre='" + titreev + '\'' +
+                ", description='" + descriptionev + '\'' +
                 '}';
     }
 
