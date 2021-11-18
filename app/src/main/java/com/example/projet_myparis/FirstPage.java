@@ -27,26 +27,28 @@ public class FirstPage extends AppCompatActivity {
                 startActivity(new Intent(FirstPage.this, RestaurantsPage.class));
             }
         });
-
+/*
         findViewById(R.id.bdormir).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FirstPage.this, Evenements.class));
+                startActivity(new Intent(FirstPage.this, DormirPage.class));
             }
         });
-        /*
+
         findViewById(R.id.bshopping).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(FirstPage.this, ShoppingPage.class));
             }
         });
+        */
         findViewById(R.id.bevenements).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FirstPage.this, EvenementsPage.class));
+                startActivity(new Intent(FirstPage.this, Evenements.class));
             }
         });
+        /*
         findViewById(R.id.bplans).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

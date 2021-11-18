@@ -12,10 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="MONUMENTS"
-        android:textColor="#aaa"
+        android:textColor="@color/black"
         android:textSize="30dp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
 
 

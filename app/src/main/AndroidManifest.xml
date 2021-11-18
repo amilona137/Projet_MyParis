@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projet_MyParis">
         <activity
+            android:name=".one_day_detail"
+            android:exported="true" />
+        <activity
+            android:name=".OneDay"
+            android:exported="true" />
+        <activity
             android:name=".CustomAdapter"
             android:exported="true" />
         <activity
