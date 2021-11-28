@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="404dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title_view"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:columnCount="2">
+
+            <ImageView
+                android:id="@+id/imageev"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_column="0"
+                />
+
+            <TextView
+                android:id="@+id/titreev"
+                android:layout_width="wrap_content"
+                android:layout_height="106dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:text="TextView"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+
+        </GridLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expandable_layout"
+            >
+
+            <TextView
+                android:id="@+id/descriptionev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Description TextView"
+                android:textColor="@color/darkGrayColor"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

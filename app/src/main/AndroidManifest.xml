@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projet_MyParis">
         <activity
-            android:name=".ShoppingPage"
+            android:name=".one_day_detail"
             android:exported="true" />
         <activity
-            android:name=".AnecdotesPages"
+            android:name=".OneDay"
             android:exported="true" />
         <activity
-            android:name=".TransportsPage"
+            android:name=".CustomAdapter"
+            android:exported="true" />
+        <activity
+            android:name=".Evenements"
             android:exported="true" />
         <activity
             android:name=".MChampsElysees"
