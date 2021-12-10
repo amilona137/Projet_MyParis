@@ -4,8 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
-
+import android.view.View;
 
 
 public class RestaurantsPage extends AppCompatActivity {
@@ -20,6 +21,12 @@ public class RestaurantsPage extends AppCompatActivity {
         setContentView(R.layout.activity_restaurants_page);
         recyclerView = findViewById(R.id.rv_resto);
 
+        findViewById(R.id.BoutonRestaurant).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(RestaurantsPage.this, FirstPage.class));
+            }
+        });
 
         MyRestaurantsData[] restaurants = new MyRestaurantsData[]{
                 new MyRestaurantsData("Le Coupe Gorge", "Ce petit restaurant à la décoration centrée " +

@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     private float previousY;
     RelativeLayout Layout;
 
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

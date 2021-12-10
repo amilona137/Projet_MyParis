@@ -3,6 +3,8 @@ import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.DisplayMetrics;
+import android.view.Display;
 import android.view.View;
 
 public class Monuments extends AppCompatActivity {
@@ -10,7 +12,9 @@ public class Monuments extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_monuments);
+        setContentView(R.layout.content_monuments);
+        DisplayMetrics metrics = new DisplayMetrics(); ;
+        getWindowManager().getDefaultDisplay().getRealMetrics(metrics);
 
         findViewById(R.id.toureiffel).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,6 +76,13 @@ public class Monuments extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Monuments.this, MChampsElysees.class));
+            }
+        });
+
+        findViewById(R.id.BoutonMonument).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Monuments.this, FirstPage.class));
             }
         });
     }
