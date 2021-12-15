@@ -59,7 +59,7 @@ public class FirstPage extends AppCompatActivity {
          findViewById(R.id.bcircuit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FirstPage.this, OneDayDetails.class));
+                startActivity(new Intent(FirstPage.this, OneDay.class));
             }
         });
 

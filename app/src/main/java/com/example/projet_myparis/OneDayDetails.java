@@ -4,8 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
-
+import android.view.View;
 
 
 public class OneDayDetails extends AppCompatActivity {
@@ -17,37 +18,32 @@ public class OneDayDetails extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_restaurants_page);
-        recyclerView = findViewById(R.id.rv_resto);
+        setContentView(R.layout.activity_one_day_details);
+        recyclerView = findViewById(R.id.details_one_day);
 
+        findViewById(R.id.BoutonRestaurant).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(OneDayDetails.this, FirstPage.class));
+            }
+        });
 
-     /*   OneDayDetailsData[] restaurants = new OneDayDetailsData[][]{
-                new OneDayDetailsData("La", "Ce petit restaurant à la décoration centrée " +
-                        "autour de la ville de Paris révisite des plats typiques de la gastronomie française en ajoutant des touches d'originalité. Sa spécialité ? Du nougat fait maison par un chef passionné !" +
-                        "Adresse : 2,rue de la Couteillerie    Prix moyen : 33€ ", R.drawable.coupegorge),
-                new OneDayDetailsData("Touch In Paris", "Avec des assiettes raffinées et généreuses, Touch In Paris vous fera saliver ! Tournée autour de la gastronomie française, la cuisine du chef est colorée et de saison. " +
-                        "Adresse : 20,rue Vignon    Prix moyen : 49€    ", R.drawable.touchinparis),
-                new OneDayDetailsData("Le Félix Café", "Le Félix Café propose des plats simples dans une ambiance chaleureuse et bon enfant. Les férus de viande ne seront pas déçus, avec une carte des plus carnivores !" +
-                        "Adresse : 40,boulevard de Reuilly   Prix moyen : 26€    ", R.drawable.felixgourmand),
-                new OneDayDetailsData("Le Bon Bock", "Au cours du 18e arrondissement de la capital, ce restaurant propose des plats traditionels français familiaux avec une touche de raffinement. Ce lieu chargé d'histoire  propose une très belle carte de vins pour accompagner vos repas."+
-                        "Adresse : 2,rue Dancourt   Prix moyen : 42€", R.drawable.lebonbock),
-                new OneDayDetailsData("Magokoro", "Plongez dans une véritable ambiance japonaise. Tenue par des propriétaires tout droit venus du Japon, ils vont feront découvrir des plats originaux. Une invitation au voyage, tout simplement. " +
-                        "Adresse : 33,rue Lamartine   Prix moyen : 33€    ", R.drawable.magokoro),
-                new OneDayDetailsData("Casa Di Peppe", "Restaurant italien qui prône le 100 % fait maison, la Casa di Pepe vous fera savourer des plats italiens, en passant par des antipastis et un large choix de pizzas et de plats de pâtes. Le restaurant a même été élu en août 2021 meilleure pizzeria d'Europe !" +
-                        "Adresse : 222,rue St Jacques   Prix moyen : 28€    ", R.drawable.casadipepe),
-                new OneDayDetailsData("Le 27 Gourmand", "Dans ce restaurant, vous  dégusterez des plats copieux à base de canard mais aussi à base de boeuf Black Angus. Les plats sont traditionels de la gastronomie française et les frites maison vous régaleront !  " +
-                        "Adresse : 27, boulevard des Batignolles   Prix moyen : 40€    ", R.drawable.vingtsept),
-                new OneDayDetailsData("A Casaluna", "Bienvenue en Corse ! Les couleurs chaleureuses et les murs tout en pierre accompagneront la dégustation de plats venant de l'île de Beauté. Vous pourrez y découvrir des soupes de poisson, du sanglier et du boeuf d'exception ! Sans oublier la charcuterie corse." +
-                        "Adresse : 6, rue de Beaujolais  Prix moyen : 60€    ", R.drawable.casaluna),
-
-        };*/
+        MyRestaurantsData[] restaurants = new MyRestaurantsData[]{
+                new MyRestaurantsData("Arc de Triomphe", "L'Arc de Triomphe est, comme la Tour Eiffel, l'un des monuments les plus emblématiques de Paris. Mesurant 50 mètres de haut, 22 mètres de large et 45 mètres de long, l'Arc de Triomphe est le symbole des victoires de l'armée française sous l'Empire de Napoléon. Il a fallu trente ans pour construire l'Arc de Triomphe. ", R.drawable.adt),
+                new MyRestaurantsData("La Tour Eiffel", "La tour Eiffel est une structure en fer puddlé, un fer qui a perdu une part de son carbone et donc rouille moins vite. Elle est de forme pyramidale aux côtés légèrement incurvés. Elle mesure 324m de haut et se divise en 4 parties séparées par un étage.", R.drawable.lte),
+                new MyRestaurantsData("La Place de l'Alma", "La place de l’Alma tient son nom de sa proximité avec le pont de l’Alma, de là partent les avenues de New-York, du Président-Wilson, George-V, Montaigne ( qui conduit aux Champs Elysées) et du cours Albert Ier qui longe la Seine. Elle célèbre la victoire (1854) des alliés sur les Russes sur l'Alma (petit fleuve côtier près de Sébastopol en Crimée).", R.drawable.pdl),
+                new MyRestaurantsData("Le Jardin des Tuileries", "Le Jardin des Tuileries tient son nom des fabriques de tuiles qui se tenaient à l'endroit où la reine Catherine de Médicis a fait édifier le palais des Tuileries en 1564, aujourd'hui disparu. Le célèbre jardinier du roi, André Le Nôtre, lui donne à partir de 1664 son aspect actuel de jardin à la française.", R.drawable.ljdt),
+                new MyRestaurantsData("Notre Dame de Paris", "Notre-Dame de Paris est d'architecture gothique et se situe sur l'île de la Cité au cœur de Paris. Les deux rosaces qui ornent chacun des bras du transept 6 sont parmi les plus grandes d'Europe et ont chacune un diamètre de 13 m. ... La hauteur de la flèche est de 96 mètres et la largeur de la façade est de 43,5 mètres.", R.drawable.nddp),
+                new MyRestaurantsData("L'Opéra Garnier", "L’opéra Garnier, ou palais Garnier, est un théâtre national qui a la vocation d'être une académie de musique, de chorégraphie et de poésie lyrique ; il est un élément majeur du patrimoine du 9e arrondissement de Paris et de la capitale. ", R.drawable.og),
+                new MyRestaurantsData("Montmartre", "Montmartre est un quartier du 18e arrondissement de Paris (France) dominé par la basilique du Sacré-Cœur. Depuis le XIX e siècle, il a accueilli de nombreux artistes tels que Picasso ou Modigliani et est devenu le symbole d'un mode de vie bohème.", R.drawable.mmt),
+        };
 
 
 
-      /*  rvAdapter = new RVAdapter(restaurants);
+        rvAdapter = new RVAdapter(restaurants);
         recyclerView.setAdapter(rvAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
-        recyclerView.hasFixedSize();*/
+        recyclerView.hasFixedSize();
 
     }
 }

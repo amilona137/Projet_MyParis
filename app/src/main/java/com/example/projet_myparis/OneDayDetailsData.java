@@ -1,6 +1,6 @@
 package com.example.projet_myparis;
 
-public class OneDayDetailsData{
+public class OneDayDetailsData {
     private String nom;
     private String description;
     private Integer image;
@@ -31,5 +31,6 @@ public class OneDayDetailsData{
     public void setImage(Integer im){
         this.image = im;
     }
+
 
 }
