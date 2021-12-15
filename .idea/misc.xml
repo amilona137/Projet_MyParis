@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.24487179487179486" />
         <entry key="app/src/main/res/drawable/test_background.xml" value="0.24947916666666667" />
         <entry key="app/src/main/res/layout/activity_anecdotes_pages.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_bons_plans.xml" value="0.25925925925925924" />
         <entry key="app/src/main/res/layout/activity_custom_adapter.xml" value="0.3619791666666667" />
         <entry key="app/src/main/res/layout/activity_details.xml" value="0.14947916666666666" />
         <entry key="app/src/main/res/layout/activity_evenements.xml" value="0.22" />
@@ -28,6 +29,7 @@
         <entry key="app/src/main/res/layout/activity_one_day.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_one_day_detail.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_one_day_details.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_ou_dormir.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_restaurants_page.xml" value="0.21197916666666666" />
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.3619791666666667" />
         <entry key="app/src/main/res/layout/activity_transports_page.xml" value="0.28229166666666666" />
@@ -39,6 +41,7 @@
         <entry key="app/src/main/res/layout/fragment_second2.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/row.xml" value="0.18" />
         <entry key="app/src/main/res/layout/rv_list_item.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/rv_list_item2.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1765625" />
       </map>
     </option>

@@ -10,12 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projet_MyParis">
         <activity
+            android:name=".OuDormir"
+            android:exported="true" />
+        <activity
             android:name=".OneDayDetails"
             android:exported="true" />
-<activity
+        <activity
             android:name=".TransportsPage"
             android:exported="true" />
-
         <activity
             android:name=".OneDay"
             android:exported="true" />
@@ -54,6 +56,9 @@
             android:exported="true" />
         <activity
             android:name=".RestaurantsPage"
+            android:exported="true" />
+        <activity
+            android:name=".BonsPlans"
             android:exported="true" />
         <activity
             android:name=".Monuments"

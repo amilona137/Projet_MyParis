@@ -21,5 +21,12 @@ public class OneDay extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.BoutonUnJour).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(OneDay.this, FirstPage.class));
+            }
+        });
+
     }
 }
