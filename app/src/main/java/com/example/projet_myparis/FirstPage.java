@@ -55,24 +55,26 @@ public class FirstPage extends AppCompatActivity {
                 startActivity(new Intent(FirstPage.this, BonsPlansPage.class));
             }
         });
-        findViewById(R.id.bcircuit).setOnClickListener(new View.OnClickListener() {
+         */
+         findViewById(R.id.bcircuit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FirstPage.this, CircuitPage.class));
+                startActivity(new Intent(FirstPage.this, OneDay.class));
             }
         });
+
         findViewById(R.id.banecdotes).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FirstPage.this, AnecdotesPage.class));
+                startActivity(new Intent(FirstPage.this, AnecdotesPages.class));
             }
         });
         findViewById(R.id.btransport).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FirstPage.this, TransportPage.class));
+                startActivity(new Intent(FirstPage.this, TransportsPage.class));
             }
-        });*/
+        });
 
     }
     }

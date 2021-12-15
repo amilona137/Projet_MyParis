@@ -3,21 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/activity_anecdotes_pages.xml" value="0.25" />
-        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/activity_quiz_page.xml" value="0.24479166666666666" />
-        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/activity_restaurants_page.xml" value="0.1" />
-        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/activity_shopping_page.xml" value="0.1" />
-        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/activity_transports_page.xml" value="0.264" />
-        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/content_monuments.xml" value="0.264" />
-        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/rv_list_item.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/Maria/AndroidStudioProjects/Projet_MyParis/app/src/main/res/layout/rv_list_item_shopping.xml" value="0.1296875" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3921875" />
         <entry key="app/src/main/res/drawable/bouton1.xml" value="0.2984375" />
         <entry key="app/src/main/res/drawable/button_plan.xml" value="0.24947916666666667" />
         <entry key="app/src/main/res/drawable/home.xml" value="0.2984375" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.24487179487179486" />
         <entry key="app/src/main/res/drawable/test_background.xml" value="0.24947916666666667" />
+        <entry key="app/src/main/res/layout/activity_anecdotes_pages.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_custom_adapter.xml" value="0.3619791666666667" />
+        <entry key="app/src/main/res/layout/activity_details.xml" value="0.14947916666666666" />
         <entry key="app/src/main/res/layout/activity_evenements.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_first_page.xml" value="0.3836003770028275" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
@@ -25,7 +19,7 @@
         <entry key="app/src/main/res/layout/activity_mchamps_elysees.xml" value="0.3619791666666667" />
         <entry key="app/src/main/res/layout/activity_mlouvre.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/activity_mnotre_dame.xml" value="0.37604166666666666" />
-        <entry key="app/src/main/res/layout/activity_monuments.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_monuments.xml" value="0.1831081081081081" />
         <entry key="app/src/main/res/layout/activity_morsay.xml" value="0.3619791666666667" />
         <entry key="app/src/main/res/layout/activity_mpompidou.xml" value="0.3619791666666667" />
         <entry key="app/src/main/res/layout/activity_msacre_coeur.xml" value="0.3619791666666667" />
@@ -33,16 +27,19 @@
         <entry key="app/src/main/res/layout/activity_mversailles.xml" value="0.3619791666666667" />
         <entry key="app/src/main/res/layout/activity_one_day.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_one_day_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_one_day_details.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_restaurants_page.xml" value="0.21197916666666666" />
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.3619791666666667" />
+        <entry key="app/src/main/res/layout/activity_transports_page.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/content_monuments.xml" value="0.25" />
         <entry key="app/src/main/res/layout/content_mtour_eiffel.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.23333333333333334" />
         <entry key="app/src/main/res/layout/fragment_first2.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/fragment_second2.xml" value="0.37604166666666666" />
-        <entry key="app/src/main/res/layout/row.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/rv_list_item.xml" value="0.21197916666666666" />
+        <entry key="app/src/main/res/layout/row.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/rv_list_item.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1765625" />
       </map>
     </option>
   </component>

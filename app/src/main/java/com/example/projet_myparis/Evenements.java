@@ -3,7 +3,9 @@ package com.example.projet_myparis;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -22,6 +24,13 @@ public class Evenements extends AppCompatActivity {
 
         initData();
         setRecyclerView();
+
+        findViewById(R.id.BoutonEvenement).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Evenements.this, FirstPage.class));
+            }
+        });
     }
 
     private void setRecyclerView() {
@@ -42,4 +51,6 @@ public class Evenements extends AppCompatActivity {
         versionsList.add(new Versions( R.drawable.eoctobre, "Octobre à Paris", "En octobre, l’art contemporain est à l’honneur à Paris ! Dans le cadre de la Nuit Blanche, la Ville lumière s’en remet aux artistes actuels dès le coucher du soleil. Pour sa nouvelle édition, un parcours nocturne plein de surprises vous attend aux quatre coins de la capitale : œuvres monumentales, installations lumineuses, expériences sensorielles… La nuit sera longue !"));
         versionsList.add(new Versions( R.drawable.enovembredecembre, "Novembre et décembre à Pairs", "A l’approche des fêtes, elle se pare de ses plus belles couleurs ! Le mois de novembre est chargé en rendez-vous pour les passionnés. Du 11 au 14 novembre 2021, le salon Paris Photo rassemble l’ensemble de la profession - galeries, photographes, artistes, collectionneurs…-  et jouit d’un rayonnement international."));
     }
+
+
 }
