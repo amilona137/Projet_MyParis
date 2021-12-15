@@ -12,10 +12,17 @@
         <activity
             android:name=".OneDayDetails"
             android:exported="true" />
+
+        <activity
+            android:name=".BonsPlans"
+            android:exported="true" />
+
 <activity
             android:name=".TransportsPage"
             android:exported="true" />
-
+        <activity
+            android:name=".ShoppingPage"
+            android:exported="true" />
         <activity
             android:name=".OneDay"
             android:exported="true" />
