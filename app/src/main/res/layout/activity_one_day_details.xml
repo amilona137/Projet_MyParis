@@ -12,7 +12,7 @@
         android:id="@+id/textView16"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Detail de la visite \n de Paris en un jour "
+        android:text="Details de la Visite \n de Paris en un jour "
         android:textSize="20sp"
         android:textAlignment="center"
         app:layout_constraintTop_toTopOf="parent" />

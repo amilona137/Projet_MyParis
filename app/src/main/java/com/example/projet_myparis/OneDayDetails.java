@@ -28,6 +28,8 @@ public class OneDayDetails extends AppCompatActivity {
             }
         });
 
+
+
         MyRestaurantsData[] restaurants = new MyRestaurantsData[]{
                 new MyRestaurantsData("Arc de Triomphe", "L'Arc de Triomphe est, comme la Tour Eiffel, l'un des monuments les plus emblématiques de Paris. Mesurant 50 mètres de haut, 22 mètres de large et 45 mètres de long, l'Arc de Triomphe est le symbole des victoires de l'armée française sous l'Empire de Napoléon. Il a fallu trente ans pour construire l'Arc de Triomphe. ", R.drawable.adt),
                 new MyRestaurantsData("La Tour Eiffel", "La tour Eiffel est une structure en fer puddlé, un fer qui a perdu une part de son carbone et donc rouille moins vite. Elle est de forme pyramidale aux côtés légèrement incurvés. Elle mesure 324m de haut et se divise en 4 parties séparées par un étage.", R.drawable.lte),
