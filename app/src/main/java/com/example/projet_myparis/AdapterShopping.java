@@ -11,8 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class AdapterShopping extends RecyclerView.Adapter<AdapterShopping.ItemViewHolder> {
 
-        MyShoppingData[] shopping ;
-        Context context;
+        MyShoppingData[] shopping;
         private ItemClickListener click;
 
 

@@ -30,14 +30,14 @@ public class ShoppingPage extends AppCompatActivity {
 
             //prepare list data
             MyShoppingData[] shopping1  = {
-                    new MyShoppingData("Rue de Rivoli", R.drawable.rivoli),
+                    new MyShoppingData("Rue de Rivoli", R.drawable.bonrivoli),
                     new MyShoppingData("Rue Saint-Honoré",  R.drawable.sainthonore),
                     new MyShoppingData("Triangle d'or", R.drawable.triangle)
 
             };
 
             MyShoppingData[] shopping2  = {
-                    new MyShoppingData("Le Marais", R.drawable.marais),
+                    new MyShoppingData("Le Marais", R.drawable.bonmarais),
                     new MyShoppingData("Le Boulevard St-Germain",  R.drawable.saintgermain),
                     new MyShoppingData("Le Forum des Halles", R.drawable.halles)
 
