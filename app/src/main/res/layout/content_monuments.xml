@@ -52,8 +52,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/toureiffel" />
 
                 <TextView
@@ -88,8 +88,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/louvre" />
 
                 <TextView
@@ -122,8 +122,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
 
                     android:src="@drawable/notredame" />
 
@@ -157,8 +157,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/arcdetriomphe" />
 
                 <TextView
@@ -191,8 +191,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/museeorsay" />
 
                 <TextView
@@ -225,8 +225,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/pompidou" />
 
                 <TextView
@@ -259,8 +259,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/sacrecoeur" />
 
                 <TextView
@@ -293,8 +293,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/versailles" />
 
                 <TextView
@@ -327,8 +327,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/champselysees" />
 
                 <TextView

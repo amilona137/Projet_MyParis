@@ -26,6 +26,12 @@ public class TransportsPage extends AppCompatActivity {
         marcel=findViewById(R.id.marcel);
 
 
+        findViewById(R.id.BoutonTransport).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TransportsPage.this, FirstPage.class));
+            }
+        });
 
         ratp1.setOnClickListener(new View.OnClickListener() {
             @Override

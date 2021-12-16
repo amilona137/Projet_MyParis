@@ -21,10 +21,10 @@ public class OneDayDetails extends AppCompatActivity {
         setContentView(R.layout.activity_one_day_details);
         recyclerView = findViewById(R.id.details_one_day);
 
-        findViewById(R.id.BoutonRestaurant).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.BoutonOneDayDetails).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(OneDayDetails.this, FirstPage.class));
+                startActivity(new Intent(OneDayDetails.this, OneDay.class));
             }
         });
 

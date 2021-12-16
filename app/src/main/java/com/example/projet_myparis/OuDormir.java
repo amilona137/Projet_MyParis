@@ -19,6 +19,13 @@ public class OuDormir extends AppCompatActivity {
         h3=findViewById(R.id.h3);
         h4=findViewById(R.id.h4);
 
+        findViewById(R.id.BoutonOuDormir).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(OuDormir.this, FirstPage.class));
+            }
+        });
+
         h1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
