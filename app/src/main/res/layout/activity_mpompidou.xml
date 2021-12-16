@@ -44,17 +44,17 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="391dp"
-        android:layout_height="237dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_width="355dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="74dp"
         android:text="Le centre national d’art et de culture Georges-Pompidou (CNAC) – communément appelé « centre Pompidou », ou plus familièrement « Beaubourg » – est un établissement pluridisciplinaire né de la volonté du président Georges Pompidou, grand amateur d'art moderne, de créer au cœur de Paris une institution culturelle originale entièrement vouée à la création moderne et contemporaine où les arts plastiques voisineraient avec les livres, le dessin, la musique, le spectacle vivant, les activités pour les jeunes publics, ainsi que le cinéma.
 
 Il est situé dans le quartier Saint-Merri, dans le 4e arrondissement de Paris, entre le quartier des Halles, à l'ouest, et le Marais, à l'est."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13"
         app:layout_constraintVertical_bias="0.437" />

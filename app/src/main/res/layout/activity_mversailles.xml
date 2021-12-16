@@ -44,10 +44,11 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="391dp"
-        android:layout_height="237dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_width="346dp"
+        android:layout_height="254dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="79dp"
         android:text="Le château de Versailles est un château et un monument historique français qui se situe à Versailles, dans les Yvelines, en France. Il fut la résidence des rois de France Louis XIV, Louis XV et Louis XVI. Le roi et la cour y résidèrent de façon permanente du 6 mai 1682 au 6 octobre 1789, à l'exception des années de la Régence de 1715 à 1723. Situés au sud-ouest de Paris, ce château et son domaine visaient à glorifier la monarchie française.
 
 Le château est constitué d'une succession d'éléments ayant une harmonie architecturale. Il s'étale sur 63 154 m2, répartis en 2 300 pièces, dont, actuellement, 1 000 pièces de musée.
@@ -56,10 +57,8 @@ Le parc du château de Versailles s'étend sur 815 ha, contre plus de 8 000 ha a
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <ImageButton
         android:id="@+id/BoutonVersailles"

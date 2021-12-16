@@ -44,17 +44,17 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="391dp"
-        android:layout_height="237dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_width="352dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="74dp"
         android:text="Le musée d’Orsay (officiellement « établissement public du musée d'Orsay et du musée de l'Orangerie – Valéry Giscard d'Estaing » depuis 2021) est un musée national inauguré en 1986.
 
 Situé dans le 7e arrondissement de Paris le long de la rive gauche de la Seine, en surplomb de la promenade Édouard-Glissant, il est installé dans l’ancienne gare d'Orsay, construite par Victor Laloux de 1898 à 1900 et réaménagée en musée sur décision du président de la République Valéry Giscard d'Estaing. Ses collections présentent l’art occidental de 1848 à 1914, dans toute sa diversité : peinture, sculpture, arts décoratifs, art graphique, photographie, architecture, etc. Il est l’un des plus grands musées d’Europe pour cette période. Le musée possède la plus importante collection de peintures impressionnistes et postimpressionnistes au monde."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13"
         app:layout_constraintVertical_bias="0.437" />

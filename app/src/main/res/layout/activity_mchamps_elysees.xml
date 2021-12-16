@@ -44,18 +44,16 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="391dp"
-        android:layout_height="237dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_width="350dp"
+        android:layout_height="245dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="74dp"
         android:text="L’avenue des Champs-Élysées (souvent abrégé les Champs-Élysées, parfois les Champs) est une voie de Paris. Longue de près de deux kilomètres et suivant l'axe historique de la ville, elle est une voie de circulation centrale reliant la place de la Concorde à la place Charles-de-Gaulle dans le 8e arrondissement. Site touristique majeur, elle passe souvent pour être la plus belle avenue de la capitale, et est connue en France comme la « plus belle avenue du monde ». L'avenue des Champs-Élysées est située dans le 8e arrondissement de Paris, dans le nord-ouest de la ville. Elle s'étend sur 1 910 mètres, d'est en ouest, reliant la place de la Concorde, où se dresse l'obélisque de Louxor, et la place Charles-de-Gaulle (ancienne « place de l'Étoile »), située au nord de la colline de Chaillot à l'un de ses points culminants. "
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/BoutonChampsElysees"

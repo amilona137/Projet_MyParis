@@ -44,17 +44,17 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="391dp"
-        android:layout_height="237dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_width="358dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="74dp"
         android:text="L'arc de triomphe de l’Étoile, souvent appelé simplement l'Arc de Triomphe1, est un monument situé à Paris, en un point haut à la jonction des territoires des 8e, 16e et 17e arrondissements, notamment au sommet de l'avenue des Champs-Élysées et de l'avenue de la Grande-Armée, lesquelles constituent un grand axe est-ouest parisien partant de la pyramide du Louvre, passant par l'obélisque de La Concorde, l'Arc de Triomphe lui-même et se terminant au loin par l'Arche de la Défense.
 
 Sa construction, décidée par l'empereur Napoléon Ier, débute en 1806 et s'achève en 1836 sous le règne de Louis-Philippe."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13"
         app:layout_constraintVertical_bias="0.437" />

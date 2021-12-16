@@ -44,20 +44,19 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="391dp"
-        android:layout_height="237dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_width="346dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="74dp"
         android:text="La basilique du Sacré-Cœur de Montmartre, dite du Vœu national, située au sommet de la butte Montmartre, dans le quartier de Clignancourt du 18e arrondissement de Paris (France), est un édifice religieux parisien majeur, « sanctuaire de l'adoration eucharistique et de la miséricorde divine » et propriété de l'archidiocèse de Paris.
 
 La construction de cette église, monument à la fois politique et culturel, suit l'après-guerre de 1870. Elle est déclarée d'utilité publique par une loi votée le 24 juillet 1873 par l'Assemblée nationale de 1871 ; le bâtiment est officiellement achevé en 1923. La volonté de construire cette basilique s'inscrit dans le contexte de recharge sacrale et sa construction s'est déroulée dans le cadre de l'instauration d'un « ordre moral » faisant suite aux événements de la Commune de Paris."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <ImageButton
         android:id="@+id/BoutonSacreCoeur"
