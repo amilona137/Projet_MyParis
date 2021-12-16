@@ -61,6 +61,9 @@
             android:name=".BonsPlans"
             android:exported="true" />
         <activity
+            android:name=".ShoppingPage"
+            android:exported="true" />
+        <activity
             android:name=".Monuments"
             android:exported="true"
             android:label="@string/title_activity_monuments"

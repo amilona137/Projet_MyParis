@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BonsPlans">
+    tools:context=".BonsPlans"
+    android:background="@drawable/fondparis">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -64,7 +65,8 @@
                     android:text="Découverte de Paris à bord du ballon à 10 € au lieu de 15"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textStyle="bold"/>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <ImageView
@@ -87,7 +89,8 @@
                     android:text="Location d'un bateau sans permis à Paris à partir de 8 € / pers (pour 5 pers)"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textStyle="bold"/>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <ImageView
@@ -110,7 +113,8 @@
                     android:text="Venez admirer les plus beaux spectacles de Noël aux Galeries Lafayette gratuitement !"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textStyle="bold"/>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <ImageView
@@ -133,7 +137,8 @@
                     android:text="Réduction de 15 % sur les PARIS PASS MUSEUM jusqu'au 31 mars 2022"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textStyle="bold"/>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -160,7 +165,8 @@
                     android:text="En ce moment, venez découvrir nos places à 10 € en quantité limitée !"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textStyle="bold"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -34,14 +34,14 @@ public class FirstPage extends AppCompatActivity {
                 startActivity(new Intent(FirstPage.this, OuDormir.class));
             }
         });
-/*
+
         findViewById(R.id.bshopping).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(FirstPage.this, ShoppingPage.class));
             }
         });
-        */
+
         findViewById(R.id.bevenements).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
