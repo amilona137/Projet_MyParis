@@ -19,7 +19,7 @@ public class RestaurantsPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurants_page);
-        recyclerView = findViewById(R.id.rv_resto);
+        recyclerView = findViewById(R.id.shopping1);
 
         findViewById(R.id.BoutonRestaurant).setOnClickListener(new View.OnClickListener() {
             @Override
