@@ -17,6 +17,12 @@ public class AnecdotesPages extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_anecdotes_pages);
 
+        findViewById(R.id.BoutonAnecdotes).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(AnecdotesPages.this, FirstPage.class));
+            }
+        });
         /*findViewById(R.id.quiz).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
