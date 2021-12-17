@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class ShoppingPage extends AppCompatActivity {
@@ -22,6 +24,7 @@ public class ShoppingPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shopping_page);
+
 
             recyclerView1 = findViewById(R.id.shopping1);
             recyclerView2 = findViewById(R.id.shopping2);
@@ -64,6 +67,7 @@ public class ShoppingPage extends AppCompatActivity {
                 }
             });
 
+
         adapter2 = new AdapterShopping(shopping2, new AdapterShopping.ItemClickListener() {
             @Override
             public void onItemClick(int p) {
@@ -91,5 +95,12 @@ public class ShoppingPage extends AppCompatActivity {
         // RV size doesn't depend on amount of content
         recyclerView1.hasFixedSize();
         recyclerView2.hasFixedSize();
+
+        findViewById(R.id.BoutonShopping).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ShoppingPage.this, FirstPage.class));
+            }
+        });
 
 }}

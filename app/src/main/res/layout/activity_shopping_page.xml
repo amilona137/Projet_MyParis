@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="@drawable/fondparis"
     tools:context=".ShoppingPage">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -14,6 +14,7 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/shopping1"
+            android:textStyle="bold"
             android:layout_width="402dp"
             android:layout_height="150dp"
             android:layout_marginStart="4dp"
@@ -23,6 +24,7 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/shopping2"
+            android:textStyle="bold"
             android:layout_width="406dp"
             android:layout_height="163dp"
             android:layout_marginStart="4dp"
@@ -47,10 +49,18 @@
             android:layout_marginStart="45dp"
             android:layout_marginTop="1dp"
             android:layout_marginEnd="45dp"
+            android:textStyle="bold"
             android:text="Cliquez sur une des photographies pour avoir plus d'informations !"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/titre" />
+        <ImageButton
+            android:id="@+id/BoutonShopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
 
         <TextView
             android:id="@+id/title_view"
