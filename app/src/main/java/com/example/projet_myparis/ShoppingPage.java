@@ -31,7 +31,7 @@ public class ShoppingPage extends AppCompatActivity {
             titre = findViewById(R.id.titre);
             description = findViewById(R.id.description);
 
-            //prepare list data
+            // déclaration des listes de données
             MyShoppingData[] shopping1  = {
                     new MyShoppingData("Rue de Rivoli", R.drawable.bonrivoli),
                     new MyShoppingData("Rue Saint-Honoré",  R.drawable.sainthonore),
@@ -47,7 +47,7 @@ public class ShoppingPage extends AppCompatActivity {
             };
 
 
-            //create RV adapter from data (fruits strings)
+            // action à faire quand click sur une image des recyclerView
              adapter1 = new AdapterShopping(shopping1, new AdapterShopping.ItemClickListener() {
                 @Override
                 public void onItemClick(int p) {
@@ -89,10 +89,10 @@ public class ShoppingPage extends AppCompatActivity {
         recyclerView1.setAdapter(adapter1);
         recyclerView2.setAdapter(adapter2);
 
-        // set RV layout: vertical list
+        // recylerView mise en horizontal
         recyclerView1.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         recyclerView2.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-        // RV size doesn't depend on amount of content
+        // taille fixe des recyclerView peu importe le nombre de données
         recyclerView1.hasFixedSize();
         recyclerView2.hasFixedSize();
 

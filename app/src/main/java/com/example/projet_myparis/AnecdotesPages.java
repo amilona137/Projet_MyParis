@@ -23,11 +23,7 @@ public class AnecdotesPages extends AppCompatActivity {
                 startActivity(new Intent(AnecdotesPages.this, FirstPage.class));
             }
         });
-        /*findViewById(R.id.quiz).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(AnecdotesPages.this, Quizpage.class ));
-            }*/
+
 
         TextView texte = findViewById(R.id.texte);
         TextView titre = findViewById(R.id.titre);

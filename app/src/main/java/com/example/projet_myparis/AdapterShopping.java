@@ -53,7 +53,6 @@ public class AdapterShopping extends RecyclerView.Adapter<AdapterShopping.ItemVi
         public void onBindViewHolder(ItemViewHolder holder, int position) {
             final MyShoppingData list = shopping[position];
             holder.nom.setText(list.getNom());
-            //holder.description.setText(list.getDescription());
             holder.image.setImageResource(list.getImage());
 
             holder.itemView.setOnClickListener(view -> {

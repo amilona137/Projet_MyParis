@@ -25,12 +25,7 @@ public class MyShoppingData {
     public void setNom(String nom){
         this.nom = nom;
     }
-    /*public int getNumero(){
-        return numero;
-    }
-    public void setNumero(int numero){
-        this.numero = numero;
-    }*/
+
 
     public Integer getImage(){
         return image;
